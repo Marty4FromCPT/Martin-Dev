@@ -1,0 +1,18 @@
+# hosts-dev
+
+
+
+
+[workstations]
+workstation-1 ansible_host=
+Workstation-2 ansible_host=
+
+[webservers]
+webserver ansible_host=
+
+[loadbalancers]
+loadbalancer ansible_host=
+
+
+[local]
+
