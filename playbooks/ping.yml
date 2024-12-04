@@ -1,6 +1,6 @@
 # ping.yml
 ---
-  - hosts: workstations
+  - hosts: loadbalancers:workstations
     tasks:
      - name: Ping all servers
        action: ping
